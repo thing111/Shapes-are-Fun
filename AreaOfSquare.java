@@ -11,4 +11,8 @@ package funwithshapes;
  */
 public class AreaOfSquare {
     
+    public double calcArea(double length, double height)
+    {
+        return length * height;
+    }
 }
