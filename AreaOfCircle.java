@@ -11,4 +11,9 @@ package funwithshapes;
  */
 public class AreaOfCircle {
     
+    double circleArea(double radius) {
+        return Math.PI * radius;
+    }
+    
+    
 }
