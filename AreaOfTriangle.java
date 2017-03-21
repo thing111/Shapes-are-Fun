@@ -10,5 +10,7 @@ package funwithshapes;
  * @author Logan
  */
 public class AreaOfTriangle {
-    
+    public double getArea(double base, double height){
+        return .5 * base * height;
+    }
 }
