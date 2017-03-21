@@ -16,6 +16,9 @@ public class FunWithShapes {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        double triBase = 5;
+        double triHeight = 5.4;
+        System.out.println(new AreaOfTriangle().getArea(triBase, triHeight));
     }
     
 }
