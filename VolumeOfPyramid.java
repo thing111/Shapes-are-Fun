@@ -11,4 +11,23 @@ package funwithshapes;
  */
 public class VolumeOfPyramid {
     
+    double base_Edge, height, volume;
+    
+    public VolumeOfPyramid(double baseEdge, double h){
+        base_Edge = baseEdge;
+        height = h;
+        volume = (baseEdge * baseEdge) * (h / 3);
+    }
+    
+    public double getVolume(){
+        return volume;
+    }
+    
+    public double get_baseEdge(){
+        return base_Edge;
+    }
+    
+    public double getheight(){
+        return height;
+    }
 }
